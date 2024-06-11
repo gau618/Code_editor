@@ -1,0 +1,53 @@
+.Create-folder{
+    border: 2px solid black;
+    position: absolute;
+    background-color: red;
+     top: 0;
+     bottom: 0;
+     right: 0;
+     left: 0;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(153,153,153,.2);
+    .folder {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: small;
+        box-shadow: 0px 0px 5px black;
+        width: 330px;
+        height: 70px;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 8px 0px;
+        .header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+    
+        .input-button {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            button {
+                color: white;
+                border: none;
+                background-color: rgb(36, 31, 33);
+                font-size: x-small;
+                width: 100px;
+                height: 24px;
+                border-radius: 3px 0px;
+                cursor: pointer;
+            }
+    
+            input {
+                height: 18px;
+                outline: none;
+            }
+        }
+    }
+    
+}
